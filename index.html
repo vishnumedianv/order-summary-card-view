@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <main class="order">
+      <img
+        class="order-img"
+        src="./images/illustration-hero.svg"
+        alt="illustration-hero"
+      />
+
+      <div class="order-content flex flex-column">
+        <h1 class="bolder">Order Summary</h1>
+        <p class="m-y">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <div class="content-annual flex flex-between">
+          <div class="flex flex-row">
+            <span class="icon"></span>
+            <div class="flex flex-column">
+              <h3 class="bolder">Annual Plan</h3>
+              <p>$59.99/year</p>
+            </div>
+          </div>
+
+          <a class="change-ad flex flex-column bolder" href="">Change</a>
+        </div>
+
+        <button class="proceed m-y">Proceed to Payment</button>
+        <div class="flex flex-row">
+          <a class="cancel-ad bold" href="">Cancel Order</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
